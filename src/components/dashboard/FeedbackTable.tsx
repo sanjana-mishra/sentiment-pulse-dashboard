@@ -4,9 +4,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Badge } from '@/components/ui/badge';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { format } from 'date-fns';
+import { format, isAfter, startOfDay } from 'date-fns';
 import { FeedbackItem, FeedbackSource, SentimentLabel } from '@/types/sentiment';
 import { fetchFeedbackData, fetchNewFeedback } from '@/services/mockDataService';
+import { CalendarIcon } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Calendar } from '@/components/ui/calendar';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { cn } from '@/lib/utils';
 
 interface FeedbackTableProps {
   refresh: boolean;
@@ -18,6 +23,7 @@ const FeedbackTable = ({ refresh, lastUpdated }: FeedbackTableProps) => {
   const [data, setData] = useState<FeedbackItem[]>([]);
   const [sourceFilter, setSourceFilter] = useState<FeedbackSource | 'all'>('all');
   const [sentimentFilter, setSentimentFilter] = useState<SentimentLabel | 'all'>('all');
+  const [dateFilter, setDateFilter] = useState<Date | undefined>(undefined);
 
   useEffect(() => {
     const loadData = async () => {
@@ -41,11 +47,12 @@ const FeedbackTable = ({ refresh, lastUpdated }: FeedbackTableProps) => {
     }
   }, [refresh, lastUpdated]);
 
-  // Filter data based on selected source and sentiment
+  // Filter data based on selected source, sentiment, and date
   const filteredData = data.filter(item => {
     const matchesSource = sourceFilter === 'all' || item.source === sourceFilter;
     const matchesSentiment = sentimentFilter === 'all' || item.sentimentLabel === sentimentFilter;
-    return matchesSource && matchesSentiment;
+    const matchesDate = !dateFilter || isAfter(new Date(item.timestamp), startOfDay(dateFilter));
+    return matchesSource && matchesSentiment && matchesDate;
   });
 
   // Helper function to get badge color based on sentiment
@@ -76,13 +83,18 @@ const FeedbackTable = ({ refresh, lastUpdated }: FeedbackTableProps) => {
     }
   };
 
+  // Function to clear the date filter
+  const clearDateFilter = () => {
+    setDateFilter(undefined);
+  };
+
   return (
     <Card className="shadow-md">
       <CardHeader className="pb-2">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
           <CardTitle className="text-lg font-medium">Latest Customer Feedback</CardTitle>
           
-          <div className="flex gap-2 w-full sm:w-auto">
+          <div className="flex flex-wrap gap-2 w-full sm:w-auto">
             <Select value={sourceFilter} onValueChange={(val) => setSourceFilter(val as FeedbackSource | 'all')}>
               <SelectTrigger className="w-full sm:w-[110px]">
                 <SelectValue placeholder="Source" />
@@ -106,6 +118,39 @@ const FeedbackTable = ({ refresh, lastUpdated }: FeedbackTableProps) => {
                 <SelectItem value="negative">Negative</SelectItem>
               </SelectContent>
             </Select>
+            
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button 
+                  variant="outline" 
+                  className={cn(
+                    "w-full sm:w-[150px] justify-start text-left font-normal",
+                    !dateFilter && "text-muted-foreground"
+                  )}
+                >
+                  <CalendarIcon className="mr-2 h-4 w-4" />
+                  {dateFilter ? (
+                    format(dateFilter, "MMM dd, yyyy")
+                  ) : (
+                    <span>Filter by Date</span>
+                  )}
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-0" align="start">
+                <div className="p-2 flex justify-end border-b">
+                  <Button variant="ghost" size="sm" onClick={clearDateFilter} className="text-xs h-7">
+                    Clear
+                  </Button>
+                </div>
+                <Calendar
+                  mode="single"
+                  selected={dateFilter}
+                  onSelect={setDateFilter}
+                  initialFocus
+                  className={cn("p-3 pointer-events-auto")}
+                />
+              </PopoverContent>
+            </Popover>
           </div>
         </div>
       </CardHeader>
