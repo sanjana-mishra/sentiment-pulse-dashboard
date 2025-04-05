@@ -1,0 +1,602 @@
+[
+    {
+        "Timestamp": "2025-04-03T12:00:00Z",
+        "UserID": "user1",
+        "FeedbackSource": "App",
+        "FeedbackText": "This trash sorting system is fantastic! It really helps me sort waste easily."
+    },
+    {
+        "Timestamp": "2025-04-03T12:05:00Z",
+        "UserID": "user2",
+        "FeedbackSource": "Web",
+        "FeedbackText": "The system is good, but it could be faster when identifying items."
+    },
+    {
+        "Timestamp": "2025-04-03T12:10:00Z",
+        "UserID": "user3",
+        "FeedbackSource": "Email",
+        "FeedbackText": "I love how it simplifies waste sorting. It\u2019s very user-friendly."
+    },
+    {
+        "Timestamp": "2025-04-03T12:15:00Z",
+        "UserID": "user4",
+        "FeedbackSource": "App",
+        "FeedbackText": "It doesn't always work well with certain plastics. Needs improvement."
+    },
+    {
+        "Timestamp": "2025-04-03T12:20:00Z",
+        "UserID": "user5",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Good functionality overall. I think more details about waste sorting could be helpful."
+    },
+    {
+        "Timestamp": "2025-04-03T12:25:00Z",
+        "UserID": "user6",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Great idea, but the screen is too small to see properly."
+    },
+    {
+        "Timestamp": "2025-04-03T12:30:00Z",
+        "UserID": "user7",
+        "FeedbackSource": "App",
+        "FeedbackText": "This device is amazing! It makes sorting trash so easy."
+    },
+    {
+        "Timestamp": "2025-04-03T12:35:00Z",
+        "UserID": "user8",
+        "FeedbackSource": "Web",
+        "FeedbackText": "The feedback could be faster. It takes a bit too long to get results."
+    },
+    {
+        "Timestamp": "2025-04-03T12:40:00Z",
+        "UserID": "user9",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s very intuitive and helpful. Love the system!"
+    },
+    {
+        "Timestamp": "2025-04-03T12:45:00Z",
+        "UserID": "user10",
+        "FeedbackSource": "App",
+        "FeedbackText": "I had trouble getting it to detect some items. Please fix."
+    },
+    {
+        "Timestamp": "2025-04-03T12:50:00Z",
+        "UserID": "user11",
+        "FeedbackSource": "Web",
+        "FeedbackText": "I think this could help reduce waste globally, it\u2019s a great initiative!"
+    },
+    {
+        "Timestamp": "2025-04-03T12:55:00Z",
+        "UserID": "user12",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The sorting process could be a bit more detailed for different types of waste."
+    },
+    {
+        "Timestamp": "2025-04-03T13:00:00Z",
+        "UserID": "user13",
+        "FeedbackSource": "App",
+        "FeedbackText": "The system is really slow at times and causes delays in sorting."
+    },
+    {
+        "Timestamp": "2025-04-03T13:05:00Z",
+        "UserID": "user14",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Great product. It\u2019s easy to use and the interface is simple."
+    },
+    {
+        "Timestamp": "2025-04-03T13:10:00Z",
+        "UserID": "user15",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s very helpful. But it could be better if it works offline."
+    },
+    {
+        "Timestamp": "2025-04-03T13:15:00Z",
+        "UserID": "user16",
+        "FeedbackSource": "App",
+        "FeedbackText": "I think it would be more useful if it supported a wider variety of items."
+    },
+    {
+        "Timestamp": "2025-04-03T13:20:00Z",
+        "UserID": "user17",
+        "FeedbackSource": "Web",
+        "FeedbackText": "The system works perfectly and is great for sustainability."
+    },
+    {
+        "Timestamp": "2025-04-03T13:25:00Z",
+        "UserID": "user18",
+        "FeedbackSource": "Email",
+        "FeedbackText": "I had a lot of issues with this. It didn\u2019t detect half the items correctly."
+    },
+    {
+        "Timestamp": "2025-04-03T13:30:00Z",
+        "UserID": "user19",
+        "FeedbackSource": "App",
+        "FeedbackText": "The device is cool, but I think the interface could be more engaging."
+    },
+    {
+        "Timestamp": "2025-04-03T13:35:00Z",
+        "UserID": "user20",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Awesome tool for waste sorting! It helps reduce waste quickly."
+    },
+    {
+        "Timestamp": "2025-04-03T13:40:00Z",
+        "UserID": "user21",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Could use more tutorials on how to use the system effectively."
+    },
+    {
+        "Timestamp": "2025-04-03T13:45:00Z",
+        "UserID": "user22",
+        "FeedbackSource": "App",
+        "FeedbackText": "It keeps getting stuck when scanning items. Very frustrating."
+    },
+    {
+        "Timestamp": "2025-04-03T13:50:00Z",
+        "UserID": "user23",
+        "FeedbackSource": "Web",
+        "FeedbackText": "This is a brilliant product. It\u2019s going to change the way we recycle!"
+    },
+    {
+        "Timestamp": "2025-04-03T13:55:00Z",
+        "UserID": "user24",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It works great most of the time but occasionally fails to identify items."
+    },
+    {
+        "Timestamp": "2025-04-03T14:00:00Z",
+        "UserID": "user25",
+        "FeedbackSource": "App",
+        "FeedbackText": "I wish it had better recognition for organic waste. It struggles with that."
+    },
+    {
+        "Timestamp": "2025-04-03T14:05:00Z",
+        "UserID": "user26",
+        "FeedbackSource": "Web",
+        "FeedbackText": "This app is really cool. It helps me be more sustainable with my waste."
+    },
+    {
+        "Timestamp": "2025-04-03T14:10:00Z",
+        "UserID": "user27",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It's decent but the app could use a more intuitive layout."
+    },
+    {
+        "Timestamp": "2025-04-03T14:15:00Z",
+        "UserID": "user28",
+        "FeedbackSource": "App",
+        "FeedbackText": "Very slow when scanning large items. Needs optimization."
+    },
+    {
+        "Timestamp": "2025-04-03T14:20:00Z",
+        "UserID": "user29",
+        "FeedbackSource": "Web",
+        "FeedbackText": "The system is amazing and really helps with sorting. I love it."
+    },
+    {
+        "Timestamp": "2025-04-03T14:25:00Z",
+        "UserID": "user30",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It's okay but I think it could do a better job with electronic waste."
+    },
+    {
+        "Timestamp": "2025-04-03T14:30:00Z",
+        "UserID": "user31",
+        "FeedbackSource": "App",
+        "FeedbackText": "Great system, but sometimes the sorting suggestions are inaccurate."
+    },
+    {
+        "Timestamp": "2025-04-03T14:35:00Z",
+        "UserID": "user32",
+        "FeedbackSource": "Web",
+        "FeedbackText": "This system is revolutionary. I\u2019m excited to use it more."
+    },
+    {
+        "Timestamp": "2025-04-03T14:40:00Z",
+        "UserID": "user33",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s a good system, but I think it could be more robust for different types of waste."
+    },
+    {
+        "Timestamp": "2025-04-03T14:45:00Z",
+        "UserID": "user34",
+        "FeedbackSource": "App",
+        "FeedbackText": "Sometimes, it struggles with non-recyclable plastics. Needs improvement."
+    },
+    {
+        "Timestamp": "2025-04-03T14:50:00Z",
+        "UserID": "user35",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Great! I\u2019m already telling my friends about it!"
+    },
+    {
+        "Timestamp": "2025-04-03T14:55:00Z",
+        "UserID": "user36",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The system occasionally crashes. Please fix this issue."
+    },
+    {
+        "Timestamp": "2025-04-03T15:00:00Z",
+        "UserID": "user37",
+        "FeedbackSource": "App",
+        "FeedbackText": "It\u2019s fantastic! Very useful and easy to use."
+    },
+    {
+        "Timestamp": "2025-04-03T15:05:00Z",
+        "UserID": "user38",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Good system, but could use more language options."
+    },
+    {
+        "Timestamp": "2025-04-03T15:10:00Z",
+        "UserID": "user39",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It works well but sometimes it misses recyclables."
+    },
+    {
+        "Timestamp": "2025-04-03T15:15:00Z",
+        "UserID": "user40",
+        "FeedbackSource": "App",
+        "FeedbackText": "It helps with sorting trash, but I think the speed could be improved."
+    },
+    {
+        "Timestamp": "2025-04-03T15:20:00Z",
+        "UserID": "user41",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Awesome product! It makes recycling easy and quick."
+    },
+    {
+        "Timestamp": "2025-04-03T15:25:00Z",
+        "UserID": "user42",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s good, but I think it needs more features for commercial waste sorting."
+    },
+    {
+        "Timestamp": "2025-04-03T15:30:00Z",
+        "UserID": "user43",
+        "FeedbackSource": "App",
+        "FeedbackText": "Nice but some categories are wrong. Needs some updates."
+    },
+    {
+        "Timestamp": "2025-04-03T15:35:00Z",
+        "UserID": "user44",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Amazing system! I\u2019m excited to keep using it."
+    },
+    {
+        "Timestamp": "2025-04-03T15:40:00Z",
+        "UserID": "user45",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The device could be improved for larger waste items."
+    },
+    {
+        "Timestamp": "2025-04-03T15:45:00Z",
+        "UserID": "user46",
+        "FeedbackSource": "App",
+        "FeedbackText": "It\u2019s a good product, but it crashes often when scanning larger items."
+    },
+    {
+        "Timestamp": "2025-04-03T15:50:00Z",
+        "UserID": "user47",
+        "FeedbackSource": "Web",
+        "FeedbackText": "A game-changer for waste management. Great job!"
+    },
+    {
+        "Timestamp": "2025-04-03T15:55:00Z",
+        "UserID": "user48",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s good, but I think it could be improved to handle more items."
+    },
+    {
+        "Timestamp": "2025-04-03T16:00:00Z",
+        "UserID": "user49",
+        "FeedbackSource": "App",
+        "FeedbackText": "Some of the detected categories seem off. It misses some types of waste."
+    },
+    {
+        "Timestamp": "2025-04-03T16:05:00Z",
+        "UserID": "user50",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Fantastic tool! It\u2019s very helpful to sort trash at home."
+    },
+    {
+        "Timestamp": "2025-04-03T16:10:00Z",
+        "UserID": "user51",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Great, but there could be more explanations on how the system works."
+    },
+    {
+        "Timestamp": "2025-04-03T16:15:00Z",
+        "UserID": "user52",
+        "FeedbackSource": "App",
+        "FeedbackText": "I really like this system, but it should support more categories."
+    },
+    {
+        "Timestamp": "2025-04-03T16:20:00Z",
+        "UserID": "user53",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Awesome product! So helpful and innovative."
+    },
+    {
+        "Timestamp": "2025-04-03T16:25:00Z",
+        "UserID": "user54",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The system works well but could be faster."
+    },
+    {
+        "Timestamp": "2025-04-03T16:30:00Z",
+        "UserID": "user55",
+        "FeedbackSource": "App",
+        "FeedbackText": "I had trouble with waste detection. It missed a few things."
+    },
+    {
+        "Timestamp": "2025-04-03T16:35:00Z",
+        "UserID": "user56",
+        "FeedbackSource": "Web",
+        "FeedbackText": "This is the future of waste sorting. Very efficient."
+    },
+    {
+        "Timestamp": "2025-04-03T16:40:00Z",
+        "UserID": "user57",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s good, but sometimes it takes longer than expected to detect items."
+    },
+    {
+        "Timestamp": "2025-04-03T16:45:00Z",
+        "UserID": "user58",
+        "FeedbackSource": "App",
+        "FeedbackText": "It needs to improve in terms of detection accuracy for different materials."
+    },
+    {
+        "Timestamp": "2025-04-03T16:50:00Z",
+        "UserID": "user59",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Love this. It\u2019s an easy-to-use system."
+    },
+    {
+        "Timestamp": "2025-04-03T16:55:00Z",
+        "UserID": "user60",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The system crashes occasionally, but otherwise it's helpful."
+    },
+    {
+        "Timestamp": "2025-04-03T17:00:00Z",
+        "UserID": "user61",
+        "FeedbackSource": "App",
+        "FeedbackText": "Great idea but lacks features for larger waste types."
+    },
+    {
+        "Timestamp": "2025-04-03T17:05:00Z",
+        "UserID": "user62",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Awesome tool, could be even better if it detects more waste types."
+    },
+    {
+        "Timestamp": "2025-04-03T17:10:00Z",
+        "UserID": "user63",
+        "FeedbackSource": "Email",
+        "FeedbackText": "I think it could work better with recyclable glass."
+    },
+    {
+        "Timestamp": "2025-04-03T17:15:00Z",
+        "UserID": "user64",
+        "FeedbackSource": "App",
+        "FeedbackText": "The system works well but occasionally has issues detecting plastics."
+    },
+    {
+        "Timestamp": "2025-04-03T17:20:00Z",
+        "UserID": "user65",
+        "FeedbackSource": "Web",
+        "FeedbackText": "I\u2019m happy with this system! Very easy to use."
+    },
+    {
+        "Timestamp": "2025-04-03T17:25:00Z",
+        "UserID": "user66",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Good app, but sometimes the detection is off for certain items."
+    },
+    {
+        "Timestamp": "2025-04-03T17:30:00Z",
+        "UserID": "user67",
+        "FeedbackSource": "App",
+        "FeedbackText": "The app is fine, but the feedback could be faster."
+    },
+    {
+        "Timestamp": "2025-04-03T17:35:00Z",
+        "UserID": "user68",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Great system! I\u2019ll recommend it to others."
+    },
+    {
+        "Timestamp": "2025-04-03T17:40:00Z",
+        "UserID": "user69",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It works, but it's a bit slow for larger volumes."
+    },
+    {
+        "Timestamp": "2025-04-03T17:45:00Z",
+        "UserID": "user70",
+        "FeedbackSource": "App",
+        "FeedbackText": "It\u2019s a good app, but sometimes it doesn\u2019t detect the right items."
+    },
+    {
+        "Timestamp": "2025-04-03T17:50:00Z",
+        "UserID": "user71",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Really love the app, just wish it had more language options."
+    },
+    {
+        "Timestamp": "2025-04-03T17:55:00Z",
+        "UserID": "user72",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Needs a little work, but the concept is great."
+    },
+    {
+        "Timestamp": "2025-04-03T18:00:00Z",
+        "UserID": "user73",
+        "FeedbackSource": "App",
+        "FeedbackText": "Perfect for recycling at home. Very useful."
+    },
+    {
+        "Timestamp": "2025-04-03T18:05:00Z",
+        "UserID": "user74",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Good system, but takes a while to detect waste correctly."
+    },
+    {
+        "Timestamp": "2025-04-03T18:10:00Z",
+        "UserID": "user75",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It works most of the time, but sometimes it misses some waste."
+    },
+    {
+        "Timestamp": "2025-04-03T18:15:00Z",
+        "UserID": "user76",
+        "FeedbackSource": "App",
+        "FeedbackText": "Great concept but could be faster."
+    },
+    {
+        "Timestamp": "2025-04-03T18:20:00Z",
+        "UserID": "user77",
+        "FeedbackSource": "Web",
+        "FeedbackText": "I really like it. Great for sorting my household trash."
+    },
+    {
+        "Timestamp": "2025-04-03T18:25:00Z",
+        "UserID": "user78",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Nice, but the categorization isn\u2019t always accurate."
+    },
+    {
+        "Timestamp": "2025-04-03T18:30:00Z",
+        "UserID": "user79",
+        "FeedbackSource": "App",
+        "FeedbackText": "Fantastic! It has helped me a lot with sorting recyclables."
+    },
+    {
+        "Timestamp": "2025-04-03T18:35:00Z",
+        "UserID": "user80",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Great concept, but the app crashes a lot."
+    },
+    {
+        "Timestamp": "2025-04-03T18:40:00Z",
+        "UserID": "user81",
+        "FeedbackSource": "Email",
+        "FeedbackText": "This could be a real game-changer, once the bugs are worked out."
+    },
+    {
+        "Timestamp": "2025-04-03T18:45:00Z",
+        "UserID": "user82",
+        "FeedbackSource": "App",
+        "FeedbackText": "Could be better with more material identification."
+    },
+    {
+        "Timestamp": "2025-04-03T18:50:00Z",
+        "UserID": "user83",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Great product. Needs better waste categorization."
+    },
+    {
+        "Timestamp": "2025-04-03T18:55:00Z",
+        "UserID": "user84",
+        "FeedbackSource": "Email",
+        "FeedbackText": "This app is cool, but sometimes it gets the categorization wrong."
+    },
+    {
+        "Timestamp": "2025-04-03T19:00:00Z",
+        "UserID": "user85",
+        "FeedbackSource": "App",
+        "FeedbackText": "Amazing app! Very easy to use."
+    },
+    {
+        "Timestamp": "2025-04-03T19:05:00Z",
+        "UserID": "user86",
+        "FeedbackSource": "Web",
+        "FeedbackText": "It works well, but I\u2019d like more types of waste to be detected."
+    },
+    {
+        "Timestamp": "2025-04-03T19:10:00Z",
+        "UserID": "user87",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s good but needs a bit of work for better accuracy."
+    },
+    {
+        "Timestamp": "2025-04-03T19:15:00Z",
+        "UserID": "user88",
+        "FeedbackSource": "App",
+        "FeedbackText": "It works but sometimes misses items."
+    },
+    {
+        "Timestamp": "2025-04-03T19:20:00Z",
+        "UserID": "user89",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Fantastic product! Highly recommended."
+    },
+    {
+        "Timestamp": "2025-04-03T19:25:00Z",
+        "UserID": "user90",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Great app, but sometimes it doesn\u2019t detect certain types of waste."
+    },
+    {
+        "Timestamp": "2025-04-03T19:30:00Z",
+        "UserID": "user91",
+        "FeedbackSource": "App",
+        "FeedbackText": "I love this app! It's helped me organize my recycling."
+    },
+    {
+        "Timestamp": "2025-04-03T19:35:00Z",
+        "UserID": "user92",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Good app but needs faster response times."
+    },
+    {
+        "Timestamp": "2025-04-03T19:40:00Z",
+        "UserID": "user93",
+        "FeedbackSource": "Email",
+        "FeedbackText": "It\u2019s useful, but sometimes the detection is slow."
+    },
+    {
+        "Timestamp": "2025-04-03T19:45:00Z",
+        "UserID": "user94",
+        "FeedbackSource": "App",
+        "FeedbackText": "Good app, but a bit slow at times."
+    },
+    {
+        "Timestamp": "2025-04-03T19:50:00Z",
+        "UserID": "user95",
+        "FeedbackSource": "Web",
+        "FeedbackText": "Love the tool! Easy to use, but it needs more categories."
+    },
+    {
+        "Timestamp": "2025-04-03T19:55:00Z",
+        "UserID": "user96",
+        "FeedbackSource": "Email",
+        "FeedbackText": "The app is great, but I think it could be more accurate."
+    },
+    {
+        "Timestamp": "2025-04-03T20:00:00Z",
+        "UserID": "user97",
+        "FeedbackSource": "App",
+        "FeedbackText": "Great! It helped me sort my waste at home."
+    },
+    {
+        "Timestamp": "2025-04-03T20:05:00Z",
+        "UserID": "user98",
+        "FeedbackSource": "Web",
+        "FeedbackText": "This system is great, but I\u2019d love to see it identify more types of waste."
+    },
+    {
+        "Timestamp": "2025-04-03T20:10:00Z",
+        "UserID": "user99",
+        "FeedbackSource": "Email",
+        "FeedbackText": "Could use some improvements, but it\u2019s a good idea."
+    },
+    {
+        "Timestamp": "2025-04-03T20:15:00Z",
+        "UserID": "user100",
+        "FeedbackSource": "App",
+        "FeedbackText": "Fantastic! Helps me keep my home clean."
+    }
+]
