@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 All functions are defined in the functions.ipynb notebook. They are connected to DynamoDB and can be run via the cells in the notebook. 
-feedback_samples.json contains all the samples created 
+feedback_samples.json contains all the samples created; kindly add a valis OpenAI API key in the appropriate cells.
 
 
 ## Technologies are used for this project 
