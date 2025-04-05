@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# Sentiment Analysis Dashboard
 
-## Project info
 
-**URL**: https://lovable.dev/projects/502cde1f-6cdf-41f4-98e2-13368403800f
 
-## How can I edit this code?
+The front-end of this application is also hosted here: https://sentiment-pulse-dashboard.lovable.app/
 
-There are several ways of editing your application.
+Note: The backend and the frontend are not connecetd in this appplication yet. The conetnt in the frontend is dummy for now.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/502cde1f-6cdf-41f4-98e2-13368403800f) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Follow these steps for Frontend Setup:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/sanjana-mishra/sentiment-pulse-dashboard.git
+cd sentiment-pulse-dashboard
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+# Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# View on Localhost
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Follow these steps for Backend Setup:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+cd sentiment-pulse-dashboard
+cd Backend
+conda create -n dashboard python=3.9 -y
+conda activate dashboard
+pip install -r requirements.txt
+```
 
-**Use GitHub Codespaces**
+All functions are defined in the functions.ipynb notebook. They are connected to DynamoDB and can be run via the cells in the notebook. 
+feedback_samples.json contains all the samples created 
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
-
-This project is built with:
-
+## Technologies are used for this project 
+### Frontend
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+### Backend & AI
+- OpenAI APIs
+- AWS stack
 
-Simply open [Lovable](https://lovable.dev/projects/502cde1f-6cdf-41f4-98e2-13368403800f) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Results
+### Dashboard
+![Dashboard](readme_images/dashboard.png)
 
-Yes it is!
+### Time Series Chart
+![Time Series Chart](readme_images/time-series.png)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Pie Chart with Sources
+![pie-Chart with Sources](readme_images/pie-chart.png)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Feedback logged with Filters
+![Feedback](readme_images/feedback_with_filters.png)
+
+### Recommendations
+![Recommendations](readme_images/reccs.png)
+
+### Alert
+![Alert](readme_images/alert.png)
+
